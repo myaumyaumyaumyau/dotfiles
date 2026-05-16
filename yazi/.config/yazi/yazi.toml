@@ -1,0 +1,6 @@
+[mgr]
+ratio          = [1, 3, 4]
+sort_by        = "natural"     # сортировка как в Finder (file2 < file10)
+sort_dir_first = true          # папки сверху
+show_hidden    = true          # показывать .git, .env и т.д.
+scrolloff      = 5

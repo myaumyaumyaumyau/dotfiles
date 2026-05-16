@@ -1,0 +1,22 @@
+[include]
+	path = ~/.gitconfig-local
+[core]
+	eol = lf
+	autocrlf = input
+	pager = delta
+[init]
+	defaultBranch = main
+
+
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+  syntax-theme = Dracula
+  side-by-side = true
+  navigate = true
+[merge]
+	conflictStyle = zdiff3
+
+
+[includeIf "hasconfig:remote.*.url:git@github.com:myaumyaumyaumyau/**"]
+  path = ~/.gitconfig-github

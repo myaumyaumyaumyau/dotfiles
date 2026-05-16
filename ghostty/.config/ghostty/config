@@ -1,0 +1,9 @@
+font-family = FiraCode Nerd Font Mono
+font-synthetic-style = false
+theme = Catppuccin Mocha
+
+macos-option-as-alt = left
+background-opacity = 0.8
+background-blur = true
+
+keybind = ctrl+f12=reload_config
